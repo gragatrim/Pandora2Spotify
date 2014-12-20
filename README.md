@@ -14,6 +14,7 @@ Below I outline how to get the necessary arguments if you don't know how to find
 * Searching spotify's song database isn't the smartest, this just grabs the first result
 * No real error checking or hand holding when calling
 * Produces a fair bit of output to the console while running
+* The temp file name that you pass in is to store the html curled from pandora and then parse it using awk to get a list of artists and tracks, which is then used to grab spotify uris for each track
 
 ##Instructions
 1. Log into pandora and find the station id you will want to copy
