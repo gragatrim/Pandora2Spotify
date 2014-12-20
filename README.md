@@ -5,7 +5,7 @@ This will take a pandora station and convert it to a spotify playlist. It has a 
 
 ##How to run pandora2spotify
 
-sh pandora2spotify.sh <pandora_station_id> <temp_file_to_put_artists_songs> <spotify_username> <spotify_playlist_id> <oauth_token>
+sh pandora2spotify.sh &lt;pandora_station_id&gt; &lt;temp_file_to_put_artists_songs&gt; &lt;spotify_username&gt; &lt;spotify_playlist_id&gt; &lt;oauth_token&gt;
 
 Below I outline how to get the necessary arguments if you don't know how to find them yourself
 
