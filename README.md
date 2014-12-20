@@ -28,6 +28,7 @@ Below I outline how to get the necessary arguments if you don't know how to find
 4. Now you'll need an oauth token
   1. I generated mine by going to https://developer.spotify.com/web-api/console/post-playlist-tracks/
   2. Scroll down until you see "GET OAUTH TOKEN", click that, you'll need to log in
+    1. You'll need to request the playlist-modify-private scope 
   3. After you log in that input will have a value and you'll need that to use this
   4. The oauth tokens generated don't last very long, so before running make sure to use a fresh one
 5. ????
