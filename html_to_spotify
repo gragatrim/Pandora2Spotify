@@ -1,0 +1,12 @@
+#! /bin/awk -f
+
+/\s*<li/ {
+  split($0, a, "\"")
+  while (index($0, "</li>") == 0) {
+    getline
+    if (index($0, a[2]) > 0) {
+      split($0, b, ">|<")
+      print b[5]":"b[9]
+    }
+  }
+}

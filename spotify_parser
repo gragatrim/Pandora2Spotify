@@ -1,0 +1,7 @@
+#! /bin/awk -f
+/href.*tracks/ {
+  getline
+  split($0, a, "\"")
+  print a[4]
+  exit
+}
